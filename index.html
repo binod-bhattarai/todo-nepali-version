@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Nepali version of ToDo List with some little animations."
+    />
+    <meta name="keywords" content="TodoList" />
+    <meta name="author" content="Binod Bhattarai" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon icon has been taken from fontawesome.com site -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="(max-width: 425px)" href="mobile.css" />
+    <title>कामकाे सूची</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>कामकाे सूची <i class="far fa-list-alt"></i></h1>
+      <input
+        type="text"
+        id="task-input"
+        placeholder="गर्नुपर्ने काम यहाँ लेख्‍नुहोस् . . ."
+      />
+      <button id="add-task">
+        सूचीमा थप्‍नुहोस् <i class="fas fa-plus-circle"></i>
+      </button>
+      <h2>कामहरु</h2>
+      <input type="text" id="filter" placeholder="कामहरु छान्‍नुहोस् . . ." />
+      <ul class="items"></ul>
+      <!-- Developer -->
+      <div class="developer">
+        <p>Developer <i class="fas fa-laptop-code"></i> Mr. Binod Bhattarai</p>
+      </div>
+      <!-- App JS -->
+      <script src="app.js"></script>
+      <!-- Font awesome -->
+      <script
+        src="https://kit.fontawesome.com/695b7b4281.js"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>

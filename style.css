@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  width: 768px;
+  margin: auto;
+  padding: 1rem 2rem;
+  margin-bottom: 5rem;
+}
+
+h1 {
+  margin: 0 0 1.25rem 0;
+  font-size: 2.15rem;
+  font-family: kalimati;
+  background: #f8f8fa;
+  color: #36393e;
+  border-radius: 50px;
+  text-align: center;
+}
+
+h2 {
+  margin: 1.5rem 0 0.65rem 0;
+  padding-top: 0.5rem;
+  font-size: 1.75rem;
+  font-family: kalimati;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: #36393e;
+}
+
+.errorMsg {
+  color: #bf0000;
+  background-color: #ffc0cb;
+  width: 300px;
+  border-radius: 2.5px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-family: kalimati;
+}
+
+#task-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 2.5px;
+  font-family: kalimati;
+  font-size: 1.05rem;
+  border: 1px solid seagreen;
+  outline: none;
+}
+
+#add-task {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-top: 1.45rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 2.5px;
+  font-family: kalimati;
+  font-size: 1.05rem;
+  background-color: #398564;
+  color: #fff;
+  outline: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s;
+}
+
+#add-task:hover {
+  background-color: #49ab81;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+#dlt-icon {
+  float: right;
+  padding: 0.2rem 0.75rem 0 0;
+  cursor: pointer;
+  font-size: 1.35rem;
+  color: #bf0000;
+}
+
+#filter {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 2.5px;
+  font-family: kalimati;
+  font-size: 1.05rem;
+  border: 1px solid seagreen;
+  outline: none;
+}
+
+.items {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  list-style-type: none;
+}
+
+.lis {
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: kalimati;
+  padding: 0.65rem 1rem;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+  border-radius: 2.5px;
+  margin-bottom: 5px;
+}
+
+.animated-show {
+  animation: show 1s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes show {
+  from {
+    transform: translateX(-1500px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animated-hide {
+  animation: hide 1s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(1500px);
+  }
+}
+
+.developer {
+  background-color: #f8f8fa;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #36393e;
+}
+
+.developer p i {
+  color: #35a79c;
+}
+
+/* कोभिड टेस्ट */
+/* बजार जाने */
+/* बुटवल जाने दबाई लिन */
+/* कोभिड टेस्ट */
+/* दुध लिन जाने */

@@ -1,0 +1,22 @@
+.container {
+  max-width: 100vw;
+  padding: 1rem;
+}
+
+@keyframes show {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes hide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(625px);
+  }
+}
