@@ -26,7 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Adding task to UI
 addTaskBtn.addEventListener("click", function (e) {
-  if (taskInput.value === "") {
+  if (taskInput.value.trim() === "") {
+    taskInput.value = "";
     // Create div element
     const errorDiv = document.createElement("div");
     // Add class
